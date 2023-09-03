@@ -1,9 +1,10 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Gorditas", cursive;
+  background-color: whitesmoke;
 }
 
 h1 {
-  color: #878787;
+  color: black;
   font-size: 24px;
   font-weight: 100;
   line-height: 28px;
@@ -20,14 +21,15 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: black (135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
 }
 
-li:first-letter {
-  text-transform: capitalize;
+.form-control {
+  border-radius: 10px;
+  border-color: black;
 }
 
 .weather-app-wrapper {
@@ -37,8 +39,9 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
-  border-radius: 5px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: violet;
 }
 
 .overview {
@@ -71,4 +74,13 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.btn {
+  color: blue;
+  border-color: blue;
+  --bs-btn-active-border-color: blue;
+  --bs-btn-active-shadow: inset 0 3px 5px blue (0, 0, 0, 0.125);
+  position: relative;
+  --bs-gradient: none;
 }
